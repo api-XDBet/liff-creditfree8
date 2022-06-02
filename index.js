@@ -17,42 +17,6 @@ const email = document.getElementById('email');
 var imgNext = document.getElementById('imgNext');
 var imgPrev = document.getElementById('imgPrev');
 
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function funcNext() {
-  showSlides((slideIndex += 1));
-}
-function funcPrev() {
-  showSlides((slideIndex = -1));
-}
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName('mySlides');
-  var dots = document.getElementsByClassName('dot');
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = 'none';
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(' active', '');
-  }
-  slides[slideIndex - 1].style.display = 'block';
-  dots[slideIndex - 1].className += ' active';
-}
-
-imgPrev.onclick = () => {
-  funcPrev();
-};
-imgNext.onclick = () => {
-  funcNext();
-};
-
 // Button elements
 const btnShare = document.getElementById('btnShare');
 
@@ -292,4 +256,39 @@ async function shareMsg() {
 // 9. Add event listener to share button
 btnShare.onclick = () => {
   shareMsg();
+};
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+async function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName('mySlides');
+  var dots = document.getElementsByClassName('dot');
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none';
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(' active', '');
+  }
+  slides[slideIndex - 1].style.display = 'block';
+  dots[slideIndex - 1].className += ' active';
+}
+async function funcNext(n) {
+  showSlides((slideIndex += 1));
+}
+async function funcPrev(n) {
+  showSlides((slideIndex += -1));
+}
+imgPrev.onclick = () => {
+  funcPrev(-1);
+};
+imgNext.onclick = () => {
+  funcNext(1);
 };
