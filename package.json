@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@liff/close-window": "^2.20.1",
-    "@liff/is-api-available": "^2.20.1",
-    "@line/liff": "^2.20.1",
-    "tslib": "^2.4.0"
+    "@liff/is-api-available": "2.19.1",
+    "@line/liff": "2.18.1",
+    "tslib": "2.3.1"
   }
 }
