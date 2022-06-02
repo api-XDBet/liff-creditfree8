@@ -14,6 +14,45 @@ const displayName = document.getElementById('displayName');
 const statusMessage = document.getElementById('statusMessage');
 const email = document.getElementById('email');
 
+var imgNext = document.getElementById('imgNext');
+var imgPrev = document.getElementById('imgPrev');
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function funcNext() {
+  showSlides((slideIndex += 1));
+}
+function funcPrev() {
+  showSlides((slideIndex = -1));
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName('mySlides');
+  var dots = document.getElementsByClassName('dot');
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none';
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(' active', '');
+  }
+  slides[slideIndex - 1].style.display = 'block';
+  dots[slideIndex - 1].className += ' active';
+}
+
+imgPrev.onclick = () => {
+  funcPrev();
+};
+imgNext.onclick = () => {
+  funcNext();
+};
+
 // Button elements
 const btnShare = document.getElementById('btnShare');
 
@@ -34,7 +73,7 @@ async function main() {
   // 10. Show share button
 
   // 1. Initialize LIFF app)
-  await liff.init({ liffId: '1657099145-oRJ07V3k' });
+  await liff.init({ liffId: '1657145167-Moo7gjpB' });
 }
 main();
 
@@ -54,9 +93,9 @@ async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
       type: 'flex',
-      altText: 'Newwww',
+      altText: 'test!!',
       contents: {
-        type: 'carousel',
+        /* เริ่มต้น code */ type: 'carousel',
         contents: [
           {
             type: 'bubble',
@@ -239,7 +278,7 @@ async function shareMsg() {
           },
         ],
       },
-    },
+    } /*จบ code */,
   ]);
   if (result) {
     alert('Msg was shared!');
