@@ -52,29 +52,6 @@ async function getUserProfile() {
   email.innerHTML = '<b>email: </b>' + liff.getDecodedIDToken().email;
 }
 
-var slideIndex = 1;
-showSlides(slideIndex);
-
-async function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName('mySlides');
-  var dots = document.getElementsByClassName('dot');
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = 'none';
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(' active', '');
-  }
-  slides[slideIndex - 1].style.display = 'block';
-  dots[slideIndex - 1].className += ' active';
-}
-
 // *8. Create shareMsg()
 async function shareMsg() {
   const result = await liff.shareTargetPicker([
@@ -265,7 +242,7 @@ async function shareMsg() {
           },
         ],
       },
-    } /*จบ code */,
+    },
   ]);
   if (result) {
     alert('Msg was shared!');
@@ -276,6 +253,29 @@ async function shareMsg() {
 }
 // 11. Add close window
 
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+async function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName('mySlides');
+  var dots = document.getElementsByClassName('dot');
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none';
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(' active', '');
+  }
+  slides[slideIndex - 1].style.display = 'block';
+  dots[slideIndex - 1].className += ' active';
+}
 // 9. Add event listener to share button
 btnShare.onclick = () => {
   shareMsg();
