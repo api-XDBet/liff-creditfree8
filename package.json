@@ -1,0 +1,10 @@
+{
+  "name": "js-c8ysgu",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@liff/is-api-available": "^2.18.1",
+    "@line/liff": "2.18.1",
+    "tslib": "2.3.1"
+  }
+}
