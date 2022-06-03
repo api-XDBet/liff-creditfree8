@@ -5,15 +5,8 @@ import './style.css';
 import liff from '@line/liff';
 
 // Body element
-const body = document.getElementById('body');
 
 // Profile elements
-const pictureUrl = document.getElementById('pictureUrl');
-const userId = document.getElementById('userId');
-const displayName = document.getElementById('displayName');
-const statusMessage = document.getElementById('statusMessage');
-const email = document.getElementById('email');
-
 // Button elements
 const btnShare = document.getElementById('btnShare');
 
@@ -34,7 +27,7 @@ async function main() {
   // 10. Show share button
 
   // 1. Initialize LIFF app)
-  await liff.init({ liffId: '1657099145-oRJ07V3k' });
+  await liff.init({ liffId: '1657145167-5WvX41bP' });
 }
 main();
 
