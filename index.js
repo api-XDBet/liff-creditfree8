@@ -45,7 +45,7 @@ async function getUserProfile() {
 async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
-      type: 'flex',
+      type: 'template',
       altText: 'test',
       contents: {
         type: 'carousel',
