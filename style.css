@@ -43,30 +43,13 @@ body {
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px rgb(27, 28, 29);
-  transition: transform 0.5s;
+  transition: transform 0.3s;
   transform-style: preserve-3d;
   transform: rotateX(720deg);
 }
 
 p {
   border-bottom: 1px dashed #bbb;
-}
-
-#pictureUrl {
-  margin: 0 auto;
-  width: 32%;
-  display: -moz-box;
-  display: -webkit-box;
-  display: box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  box-pack: center;
-  box-align: center;
-  -moz-border-radius: 256px;
-  -webkit-border-radius: 256px;
-  border-radius: 256px;
 }
 
 #ImgLogo {
