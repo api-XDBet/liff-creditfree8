@@ -66,7 +66,7 @@ async function shareMsg() {
               contents: [
                 {
                   type: 'text',
-                  text: 'Arm Chair, White',
+                  text: 'pro1',
                   weight: 'bold',
                   size: 'xl',
                   wrap: true,
@@ -78,23 +78,24 @@ async function shareMsg() {
                   contents: [
                     {
                       type: 'text',
-                      text: '$49',
+                      text: '99999999',
                       weight: 'bold',
                       size: 'xl',
                       flex: 0,
                       wrap: true,
                       contents: [],
                     },
-                    {
-                      type: 'text',
-                      text: '.99',
-                      weight: 'bold',
-                      size: 'sm',
-                      flex: 0,
-                      wrap: true,
-                      contents: [],
-                    },
                   ],
+                },
+                {
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#FF5551',
+                  flex: 0,
+                  margin: 'md',
+                  wrap: true,
+                  contents: [],
                 },
               ],
             },
@@ -139,7 +140,7 @@ async function shareMsg() {
               contents: [
                 {
                   type: 'text',
-                  text: 'Metal Desk Lamp',
+                  text: 'pro 2',
                   weight: 'bold',
                   size: 'xl',
                   wrap: true,
@@ -152,18 +153,86 @@ async function shareMsg() {
                   contents: [
                     {
                       type: 'text',
-                      text: '$11',
+                      text: '99999999',
                       weight: 'bold',
                       size: 'xl',
                       flex: 0,
                       wrap: true,
                       contents: [],
                     },
+                  ],
+                },
+                {
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#FF5551',
+                  flex: 0,
+                  margin: 'md',
+                  wrap: true,
+                  contents: [],
+                },
+              ],
+            },
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'button',
+                  action: {
+                    type: 'uri',
+                    label: 'Add to Cart',
+                    uri: 'https://linecorp.com',
+                  },
+                  flex: 2,
+                  color: '#AAAAAA',
+                  style: 'primary',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'uri',
+                    label: 'Add to wish list',
+                    uri: 'https://linecorp.com',
+                  },
+                },
+              ],
+            },
+          },
+          {
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              url: 'https://central--management.s3.ap-southeast-1.amazonaws.com/xd7bet/promote/1653405085950',
+              size: 'full',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+            },
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'pro 3',
+                  weight: 'bold',
+                  size: 'xl',
+                  wrap: true,
+                  contents: [],
+                },
+                {
+                  type: 'box',
+                  layout: 'baseline',
+                  flex: 1,
+                  contents: [
                     {
                       type: 'text',
-                      text: '.99',
+                      text: '99999999',
                       weight: 'bold',
-                      size: 'sm',
+                      size: 'xl',
                       flex: 0,
                       wrap: true,
                       contents: [],
