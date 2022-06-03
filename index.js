@@ -70,466 +70,466 @@ async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
       type: 'flex',
-      altText: 'Newwww',
+      altText: 'test',
       contents: {
-        "type": "carousel",
-        "contents": [
+        type: 'carousel',
+        contents: [
           {
-            "type": "bubble",
-            "hero": {
-              "type": "image",
-              "size": "100%",
-              "aspectRatio": "1:1",
-              "aspectMode": "cover",
-              "url": "https://cdn.discordapp.com/attachments/937407559416029189/960963497011863572/unknown.png",
-              "backgroundColor": "#252525"
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              size: '100%',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497011863572/unknown.png',
+              backgroundColor: '#252525',
             },
-            "body": {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
                 {
-                  "type": "text",
-                  "text": "ชื่อโปร blablabla __1",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "xl",
-                  "color": "#FFFFFF",
-                  "align": "start"
+                  type: 'text',
+                  text: 'ชื่อโปร blablabla __1',
+                  wrap: true,
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFF',
+                  align: 'start',
                 },
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
                     {
-                      "type": "text",
-                      "text": "รายละเอียดหรือข้อความที่ต้องการ",
-                      "wrap": true,
-                      "weight": "regular",
-                      "size": "md",
-                      "flex": 0,
-                      "color": "#FFFFFF"
-                    }
-                  ]
+                      type: 'text',
+                      text: 'รายละเอียดหรือข้อความที่ต้องการ',
+                      wrap: true,
+                      weight: 'regular',
+                      size: 'md',
+                      flex: 0,
+                      color: '#FFFFFF',
+                    },
+                  ],
                 },
                 {
-                  "type": "text",
-                  "text": "Temporarily out of stock",
-                  "size": "xxs",
-                  "color": "#ff5551",
-                  "align": "start",
-                  "gravity": "center"
-                }
-              ]
-            },
-            "footer": {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "button",
-                  "style": "primary",
-                  "action": {
-                    "type": "message",
-                    "label": "ข้อความหรือลิงค์อะไรก็ได้",
-                    "text": "ข้อความหรือลิงค์อะไรก็ได้"
-                  },
-                  "color": "#000FFF",
-                  "height": "sm"
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#ff5551',
+                  align: 'start',
+                  gravity: 'center',
                 },
-                {
-                  "type": "button",
-                  "action": {
-                    "type": "message",
-                    "label": "เหมือนกัน",
-                    "text": "hello"
-                  },
-                  "color": "#FF0000",
-                  "style": "primary",
-                  "margin": "sm",
-                  "height": "sm"
-                }
               ],
-              "cornerRadius": "xs"
             },
-            "styles": {
-              "header": {
-                "backgroundColor": "#252525"
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              contents: [
+                {
+                  type: 'button',
+                  style: 'primary',
+                  action: {
+                    type: 'message',
+                    label: 'ข้อความหรือลิงค์อะไรก็ได้',
+                    text: 'ข้อความหรือลิงค์อะไรก็ได้',
+                  },
+                  color: '#000FFF',
+                  height: 'sm',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'message',
+                    label: 'เหมือนกัน',
+                    text: 'hello',
+                  },
+                  color: '#FF0000',
+                  style: 'primary',
+                  margin: 'sm',
+                  height: 'sm',
+                },
+              ],
+              cornerRadius: 'xs',
+            },
+            styles: {
+              header: {
+                backgroundColor: '#252525',
               },
-              "body": {
-                "backgroundColor": "#252525"
+              body: {
+                backgroundColor: '#252525',
               },
-              "footer": {
-                "backgroundColor": "#252525"
-              }
-            }
+              footer: {
+                backgroundColor: '#252525',
+              },
+            },
           },
           {
-            "type": "bubble",
-            "hero": {
-              "type": "image",
-              "size": "100%",
-              "aspectRatio": "1:1",
-              "aspectMode": "cover",
-              "url": "https://cdn.discordapp.com/attachments/937407559416029189/960963497347383346/unknown.png",
-              "backgroundColor": "#252525"
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              size: '100%',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497347383346/unknown.png',
+              backgroundColor: '#252525',
             },
-            "body": {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
                 {
-                  "type": "text",
-                  "text": "ชื่อโปร blablabla __2",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "xl",
-                  "color": "#FFFFFF",
-                  "align": "start"
+                  type: 'text',
+                  text: 'ชื่อโปร blablabla __2',
+                  wrap: true,
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFF',
+                  align: 'start',
                 },
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
                     {
-                      "type": "text",
-                      "text": "รายละเอียดหรือข้อความที่ต้องการ",
-                      "wrap": true,
-                      "weight": "regular",
-                      "size": "md",
-                      "flex": 0,
-                      "color": "#FFFFFF"
-                    }
-                  ]
+                      type: 'text',
+                      text: 'รายละเอียดหรือข้อความที่ต้องการ',
+                      wrap: true,
+                      weight: 'regular',
+                      size: 'md',
+                      flex: 0,
+                      color: '#FFFFFF',
+                    },
+                  ],
                 },
                 {
-                  "type": "text",
-                  "text": "Temporarily out of stock",
-                  "size": "xxs",
-                  "color": "#ff5551",
-                  "align": "start",
-                  "gravity": "center"
-                }
-              ]
-            },
-            "footer": {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "button",
-                  "style": "primary",
-                  "action": {
-                    "type": "message",
-                    "label": "ข้อความหรือลิงค์อะไรก็ได้",
-                    "text": "ข้อความหรือลิงค์อะไรก็ได้"
-                  },
-                  "color": "#000FFF",
-                  "height": "sm"
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#ff5551',
+                  align: 'start',
+                  gravity: 'center',
                 },
-                {
-                  "type": "button",
-                  "action": {
-                    "type": "message",
-                    "label": "เหมือนกัน",
-                    "text": "hello"
-                  },
-                  "color": "#FF0000",
-                  "style": "primary",
-                  "margin": "sm",
-                  "height": "sm"
-                }
               ],
-              "cornerRadius": "xs"
             },
-            "styles": {
-              "header": {
-                "backgroundColor": "#252525"
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              contents: [
+                {
+                  type: 'button',
+                  style: 'primary',
+                  action: {
+                    type: 'message',
+                    label: 'ข้อความหรือลิงค์อะไรก็ได้',
+                    text: 'ข้อความหรือลิงค์อะไรก็ได้',
+                  },
+                  color: '#000FFF',
+                  height: 'sm',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'message',
+                    label: 'เหมือนกัน',
+                    text: 'hello',
+                  },
+                  color: '#FF0000',
+                  style: 'primary',
+                  margin: 'sm',
+                  height: 'sm',
+                },
+              ],
+              cornerRadius: 'xs',
+            },
+            styles: {
+              header: {
+                backgroundColor: '#252525',
               },
-              "body": {
-                "backgroundColor": "#252525"
+              body: {
+                backgroundColor: '#252525',
               },
-              "footer": {
-                "backgroundColor": "#252525"
-              }
-            }
+              footer: {
+                backgroundColor: '#252525',
+              },
+            },
           },
           {
-            "type": "bubble",
-            "hero": {
-              "type": "image",
-              "size": "100%",
-              "aspectRatio": "1:1",
-              "aspectMode": "cover",
-              "url": "https://cdn.discordapp.com/attachments/937407559416029189/957048427831763004/abe875bd8036c88b4a45c709d9a181f7.png",
-              "backgroundColor": "#252525"
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              size: '100%',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/957048427831763004/abe875bd8036c88b4a45c709d9a181f7.png',
+              backgroundColor: '#252525',
             },
-            "body": {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
                 {
-                  "type": "text",
-                  "text": "ชื่อโปร blablabla __3",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "xl",
-                  "color": "#FFFFFF",
-                  "align": "start"
+                  type: 'text',
+                  text: 'ชื่อโปร blablabla __3',
+                  wrap: true,
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFF',
+                  align: 'start',
                 },
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
                     {
-                      "type": "text",
-                      "text": "รายละเอียดหรือข้อความที่ต้องการ",
-                      "wrap": true,
-                      "weight": "regular",
-                      "size": "md",
-                      "flex": 0,
-                      "color": "#FFFFFF"
-                    }
-                  ]
+                      type: 'text',
+                      text: 'รายละเอียดหรือข้อความที่ต้องการ',
+                      wrap: true,
+                      weight: 'regular',
+                      size: 'md',
+                      flex: 0,
+                      color: '#FFFFFF',
+                    },
+                  ],
                 },
                 {
-                  "type": "text",
-                  "text": "Temporarily out of stock",
-                  "size": "xxs",
-                  "color": "#ff5551",
-                  "align": "start",
-                  "gravity": "center"
-                }
-              ]
-            },
-            "footer": {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "button",
-                  "style": "primary",
-                  "action": {
-                    "type": "message",
-                    "label": "ข้อความหรือลิงค์อะไรก็ได้",
-                    "text": "ข้อความหรือลิงค์อะไรก็ได้"
-                  },
-                  "color": "#000FFF",
-                  "height": "sm"
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#ff5551',
+                  align: 'start',
+                  gravity: 'center',
                 },
-                {
-                  "type": "button",
-                  "action": {
-                    "type": "message",
-                    "label": "เหมือนกัน",
-                    "text": "hello"
-                  },
-                  "color": "#FF0000",
-                  "style": "primary",
-                  "margin": "sm",
-                  "height": "sm"
-                }
               ],
-              "cornerRadius": "xs"
             },
-            "styles": {
-              "header": {
-                "backgroundColor": "#252525"
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              contents: [
+                {
+                  type: 'button',
+                  style: 'primary',
+                  action: {
+                    type: 'message',
+                    label: 'ข้อความหรือลิงค์อะไรก็ได้',
+                    text: 'ข้อความหรือลิงค์อะไรก็ได้',
+                  },
+                  color: '#000FFF',
+                  height: 'sm',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'message',
+                    label: 'เหมือนกัน',
+                    text: 'hello',
+                  },
+                  color: '#FF0000',
+                  style: 'primary',
+                  margin: 'sm',
+                  height: 'sm',
+                },
+              ],
+              cornerRadius: 'xs',
+            },
+            styles: {
+              header: {
+                backgroundColor: '#252525',
               },
-              "body": {
-                "backgroundColor": "#252525"
+              body: {
+                backgroundColor: '#252525',
               },
-              "footer": {
-                "backgroundColor": "#252525"
-              }
-            }
+              footer: {
+                backgroundColor: '#252525',
+              },
+            },
           },
           {
-            "type": "bubble",
-            "hero": {
-              "type": "image",
-              "size": "100%",
-              "aspectRatio": "1:1",
-              "aspectMode": "cover",
-              "url": "https://cdn.discordapp.com/attachments/937407559416029189/960963497011863572/unknown.png",
-              "backgroundColor": "#252525"
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              size: '100%',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497011863572/unknown.png',
+              backgroundColor: '#252525',
             },
-            "body": {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
                 {
-                  "type": "text",
-                  "text": "ชื่อโปร blablabla __1",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "xl",
-                  "color": "#FFFFFF",
-                  "align": "start"
+                  type: 'text',
+                  text: 'ชื่อโปร blablabla __1',
+                  wrap: true,
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFF',
+                  align: 'start',
                 },
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
                     {
-                      "type": "text",
-                      "text": "รายละเอียดหรือข้อความที่ต้องการ",
-                      "wrap": true,
-                      "weight": "regular",
-                      "size": "md",
-                      "flex": 0,
-                      "color": "#FFFFFF"
-                    }
-                  ]
+                      type: 'text',
+                      text: 'รายละเอียดหรือข้อความที่ต้องการ',
+                      wrap: true,
+                      weight: 'regular',
+                      size: 'md',
+                      flex: 0,
+                      color: '#FFFFFF',
+                    },
+                  ],
                 },
                 {
-                  "type": "text",
-                  "text": "Temporarily out of stock",
-                  "size": "xxs",
-                  "color": "#ff5551",
-                  "align": "start",
-                  "gravity": "center"
-                }
-              ]
-            },
-            "footer": {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "button",
-                  "style": "primary",
-                  "action": {
-                    "type": "message",
-                    "label": "ข้อความหรือลิงค์อะไรก็ได้",
-                    "text": "ข้อความหรือลิงค์อะไรก็ได้"
-                  },
-                  "color": "#000FFF",
-                  "height": "sm"
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#ff5551',
+                  align: 'start',
+                  gravity: 'center',
                 },
-                {
-                  "type": "button",
-                  "action": {
-                    "type": "message",
-                    "label": "เหมือนกัน",
-                    "text": "hello"
-                  },
-                  "color": "#FF0000",
-                  "style": "primary",
-                  "margin": "sm",
-                  "height": "sm"
-                }
               ],
-              "cornerRadius": "xs"
             },
-            "styles": {
-              "header": {
-                "backgroundColor": "#252525"
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              contents: [
+                {
+                  type: 'button',
+                  style: 'primary',
+                  action: {
+                    type: 'message',
+                    label: 'ข้อความหรือลิงค์อะไรก็ได้',
+                    text: 'ข้อความหรือลิงค์อะไรก็ได้',
+                  },
+                  color: '#000FFF',
+                  height: 'sm',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'message',
+                    label: 'เหมือนกัน',
+                    text: 'hello',
+                  },
+                  color: '#FF0000',
+                  style: 'primary',
+                  margin: 'sm',
+                  height: 'sm',
+                },
+              ],
+              cornerRadius: 'xs',
+            },
+            styles: {
+              header: {
+                backgroundColor: '#252525',
               },
-              "body": {
-                "backgroundColor": "#252525"
+              body: {
+                backgroundColor: '#252525',
               },
-              "footer": {
-                "backgroundColor": "#252525"
-              }
-            }
+              footer: {
+                backgroundColor: '#252525',
+              },
+            },
           },
           {
-            "type": "bubble",
-            "hero": {
-              "type": "image",
-              "size": "100%",
-              "aspectRatio": "1:1",
-              "aspectMode": "cover",
-              "url": "https://cdn.discordapp.com/attachments/937407559416029189/960963497347383346/unknown.png",
-              "backgroundColor": "#252525"
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              size: '100%',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497347383346/unknown.png',
+              backgroundColor: '#252525',
             },
-            "body": {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
                 {
-                  "type": "text",
-                  "text": "ชื่อโปร blablabla __2",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "xl",
-                  "color": "#FFFFFF",
-                  "align": "start"
+                  type: 'text',
+                  text: 'ชื่อโปร blablabla __2',
+                  wrap: true,
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFF',
+                  align: 'start',
                 },
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
                     {
-                      "type": "text",
-                      "text": "รายละเอียดหรือข้อความที่ต้องการ",
-                      "wrap": true,
-                      "weight": "regular",
-                      "size": "md",
-                      "flex": 0,
-                      "color": "#FFFFFF"
-                    }
-                  ]
+                      type: 'text',
+                      text: 'รายละเอียดหรือข้อความที่ต้องการ',
+                      wrap: true,
+                      weight: 'regular',
+                      size: 'md',
+                      flex: 0,
+                      color: '#FFFFFF',
+                    },
+                  ],
                 },
                 {
-                  "type": "text",
-                  "text": "Temporarily out of stock",
-                  "size": "xxs",
-                  "color": "#ff5551",
-                  "align": "start",
-                  "gravity": "center"
-                }
-              ]
-            },
-            "footer": {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "button",
-                  "style": "primary",
-                  "action": {
-                    "type": "message",
-                    "label": "ข้อความหรือลิงค์อะไรก็ได้",
-                    "text": "ข้อความหรือลิงค์อะไรก็ได้"
-                  },
-                  "color": "#000FFF",
-                  "height": "sm"
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#ff5551',
+                  align: 'start',
+                  gravity: 'center',
                 },
-                {
-                  "type": "button",
-                  "action": {
-                    "type": "message",
-                    "label": "เหมือนกัน",
-                    "text": "hello"
-                  },
-                  "color": "#FF0000",
-                  "style": "primary",
-                  "margin": "sm",
-                  "height": "sm"
-                }
               ],
-              "cornerRadius": "xs"
             },
-            "styles": {
-              "header": {
-                "backgroundColor": "#252525"
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              contents: [
+                {
+                  type: 'button',
+                  style: 'primary',
+                  action: {
+                    type: 'message',
+                    label: 'ข้อความหรือลิงค์อะไรก็ได้',
+                    text: 'ข้อความหรือลิงค์อะไรก็ได้',
+                  },
+                  color: '#000FFF',
+                  height: 'sm',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'message',
+                    label: 'เหมือนกัน',
+                    text: 'hello',
+                  },
+                  color: '#FF0000',
+                  style: 'primary',
+                  margin: 'sm',
+                  height: 'sm',
+                },
+              ],
+              cornerRadius: 'xs',
+            },
+            styles: {
+              header: {
+                backgroundColor: '#252525',
               },
-              "body": {
-                "backgroundColor": "#252525"
+              body: {
+                backgroundColor: '#252525',
               },
-              "footer": {
-                "backgroundColor": "#252525"
-              }
-            }
-          }
-        ]
+              footer: {
+                backgroundColor: '#252525',
+              },
+            },
+          },
+        ],
       },
     },
   ]);
