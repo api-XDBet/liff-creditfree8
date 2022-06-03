@@ -66,7 +66,7 @@ async function shareMsg() {
               contents: [
                 {
                   type: 'text',
-                  text: 'pro1',
+                  text: 'pro 1',
                   weight: 'bold',
                   size: 'xl',
                   wrap: true,
@@ -272,6 +272,154 @@ async function shareMsg() {
                   action: {
                     type: 'uri',
                     label: 'Add to wish list',
+                    uri: 'https://linecorp.com',
+                  },
+                },
+              ],
+            },
+          },
+          {
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497011863572/unknown.png',
+              size: 'full',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+            },
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'pro 4',
+                  weight: 'bold',
+                  size: 'xl',
+                  wrap: true,
+                  contents: [],
+                },
+                {
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
+                    {
+                      type: 'text',
+                      text: '99999999',
+                      weight: 'bold',
+                      size: 'xl',
+                      flex: 0,
+                      wrap: true,
+                      contents: [],
+                    },
+                  ],
+                },
+                {
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#FF5551',
+                  flex: 0,
+                  margin: 'md',
+                  wrap: true,
+                  contents: [],
+                },
+              ],
+            },
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'button',
+                  action: {
+                    type: 'uri',
+                    label: 'Add to Cart',
+                    uri: 'https://linecorp.com',
+                  },
+                  style: 'primary',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'uri',
+                    label: 'Add to wishlist',
+                    uri: 'https://linecorp.com',
+                  },
+                },
+              ],
+            },
+          },
+          {
+            type: 'bubble',
+            hero: {
+              type: 'image',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497011863572/unknown.png',
+              size: 'full',
+              aspectRatio: '1:1',
+              aspectMode: 'cover',
+            },
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'pro 5',
+                  weight: 'bold',
+                  size: 'xl',
+                  wrap: true,
+                  contents: [],
+                },
+                {
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
+                    {
+                      type: 'text',
+                      text: '99999999',
+                      weight: 'bold',
+                      size: 'xl',
+                      flex: 0,
+                      wrap: true,
+                      contents: [],
+                    },
+                  ],
+                },
+                {
+                  type: 'text',
+                  text: 'Temporarily out of stock',
+                  size: 'xxs',
+                  color: '#FF5551',
+                  flex: 0,
+                  margin: 'md',
+                  wrap: true,
+                  contents: [],
+                },
+              ],
+            },
+            footer: {
+              type: 'box',
+              layout: 'vertical',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'button',
+                  action: {
+                    type: 'uri',
+                    label: 'Add to Cart',
+                    uri: 'https://linecorp.com',
+                  },
+                  style: 'primary',
+                },
+                {
+                  type: 'button',
+                  action: {
+                    type: 'uri',
+                    label: 'Add to wishlist',
                     uri: 'https://linecorp.com',
                   },
                 },
