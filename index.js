@@ -5,7 +5,7 @@ import './style.css';
 import liff from '@line/liff';
 
 //Get the button
-var mybutton = document.getElementById('myBtn');
+var mybutton = document.getElementById('myTopBtn');
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -20,7 +20,7 @@ function scrollFunction() {
   }
 }
 
-myBtn.onclick = function () {
+myTopBtn.onclick = function () {
   topFunction();
 };
 // When the user clicks on the button, scroll to the top of the document
