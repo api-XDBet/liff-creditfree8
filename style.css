@@ -1,9 +1,12 @@
 body {
   margin: 20px;
-  color: black;
-  background-color: rgb(27, 28, 29);
+  background-color: rgb(26, 26, 26);
 }
+#body {
+  height: 100%;
 
+  background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
+}
 .button {
   width: 95%;
   padding: 10px 0;
@@ -20,17 +23,18 @@ body {
   box-align: center;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
-  border: none;
+  border: 1px solid #f1f1f1;
   border-radius: 8px;
   box-shadow: 0 5px rgb(65, 65, 65);
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #145202;
+  background-color: #520202;
 }
 .button:hover {
   background-color: #ff0000;
+
 }
 
 .button:active {
