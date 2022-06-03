@@ -54,7 +54,7 @@ async function shareMsg() {
             type: 'bubble',
             hero: {
               type: 'image',
-              url: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497011863572/unknown.png',
               size: 'full',
               aspectRatio: '1:1',
               aspectMode: 'cover',
@@ -127,7 +127,7 @@ async function shareMsg() {
             type: 'bubble',
             hero: {
               type: 'image',
-              url: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/960963497347383346/unknown.png',
               size: 'full',
               aspectRatio: '1:1',
               aspectMode: 'cover',
