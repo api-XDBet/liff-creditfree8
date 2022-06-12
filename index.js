@@ -89,9 +89,6 @@ async function shareMsg() {
       type: 'flex',
       altText: 'งง',
       contents: {
-        type: 'carousel',
-        contents: [
-          {
             type: 'carousel',
             contents: [
               {
