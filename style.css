@@ -1,12 +1,9 @@
-body {
-  margin: 20px;
-  background-color: rgb(26, 26, 26);
-}
 #body {
   height: 100%;
 
   background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
 }
+
 .button {
   width: 95%;
   padding: 10px 0;
@@ -32,10 +29,12 @@ body {
   color: #f1f1f1;
   background-color: #fe0000;
 }
+
 .success {
   border-color: #fe0000;
   color: green;
 }
+
 .button:hover {
   background-color: #7e0101;
 }
@@ -89,10 +88,12 @@ p {
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
 }
+
 img {
   vertical-align: middle;
 }
@@ -115,4 +116,93 @@ img {
 
 #myTopBtn:hover {
   background-color: #555;
+}
+
+/* Place your CSS styles in this file */
+
+h1 {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
 }

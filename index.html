@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
-    />
-    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<head>
+  <meta charset="UTF-8" />
 
-    <title>test event</title>
-  </head>
+  <script src="index.js"></script>
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>test event</title>
+</head>
 
   <body id="body">
-    <h1><img src="image\logo_xd-bet.png" style="width: 80%" /></h1>
-    <p>Change image every 2 seconds:</p>
+  <h1>
+      <img
+        id="ImgLogo"
+        src="https://cdn.discordapp.com/attachments/959405011232776212/978907557525585950/logo_xd-bet1.png"
+        style="width: 80%"
+      />
+    
+      <input
+        type="button"
+        id="btnShare"
+        class="button"
+        value="แชร์กิจกรรม กดเลย.."
+      />
+  </h1>
+
+   
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">7</div>
+      <img src="https://cdn.discordapp.com/attachments/937331177008795648/985348933427560498/712062565.png"
+        style="width: 100%" />
+      <div class="text">XD7Bet</div>
+    </div>
 
     <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">7</div>
-        <img
-          src="https://cdn.discordapp.com/attachments/937331177008795648/985348933427560498/712062565.png"
-          style="width: 100%"
-        />
-        <div class="text">XD7Bet</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">8</div>
-        <img
-          src="https://cdn.discordapp.com/attachments/937331177008795648/985348933905678356/813062565.png"
-          style="width: 100%"
-        />
-        <div class="text">XD8Bet</div>
-      </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="https://cdn.discordapp.com/attachments/937331177008795648/985348933905678356/813062565.png"
+        style="width: 100%" />
+      <div class="text">XD8Bet</div>
     </div>
-    <br />
 
     <div style="text-align: center">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <!-- <span class="dot"></span> -->
-    </div>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <!-- <span class="dot"></span> -->
+  </div>
 
+    <button id="myTopBtn" title="Go to top" value="top">TOP</button>
     <script src="scripts.js"></script>
   </body>
 </html>
