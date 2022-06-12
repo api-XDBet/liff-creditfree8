@@ -46,8 +46,10 @@ async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
       type: 'image',
-      originalContentUrl: 'PROVIDE_URL_FROM_YOUR_SERVER',
-      previewImageUrl: 'PROVIDE_URL_FROM_YOUR_SERVER',
+      originalContentUrl:
+        'https://xd7bet.com/wp-content/uploads/2022/05/promotion-7-1-1280x273.png',
+      previewImageUrl:
+        'https://xd7bet.com/wp-content/uploads/2022/05/promotion-7-1-1280x273.png',
     },
   ]);
   if (result) {
