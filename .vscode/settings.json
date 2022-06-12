@@ -399,11 +399,11 @@
    * Enable rendering of current line highlight.
    * Defaults to all.
    */
-  // "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlight": "all",
   /**
    * Inserting and deleting whitespace follows tab stops.
    */
-  // "editor.useTabStops": true,
+  "editor.useTabStops": true,
   /**
    * The font family
    */
@@ -411,21 +411,21 @@
   /**
    * The font weight
    */
-  // "editor.fontWeight": "normal",
+  "editor.fontWeight": "normal",
   /**
    * The font size
    */
-  "editor.fontSize": 16
+  "editor.fontSize": 16,
   /**
    * The line height
    */
-  // "editor.lineHeight": 18,
+  "editor.lineHeight": 1.2,
   /**
    * The letter spacing
    */
-  // "editor.letterSpacing": 4,
+  "editor.letterSpacing": 1,
   /**
    * Controls fading out of unused variables.
    */
-  // "editor.showUnused": true
+  "editor.showUnused": true
 }
