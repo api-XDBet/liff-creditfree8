@@ -9,18 +9,44 @@
 <link rel="stylesheet" href="style.css">
 
 <title>test event</title>
+<!-- You can use open graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="og:url"           content="https://www.facebook.com/Xd7bet-104140748993085" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="My Website Title" />
+<meta property="og:description"   content="My description" />
+<meta property="og:image"         content="https://cdn.discordapp.com/attachments/937407559416029189/985451116768669706/logo_xd-bet1.png" />
 </head>
 
   <body id="body">
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1
+           &version={graph-api-version}
+           &appId={your-facebook-app-id}
+           &autoLogAppEvents=1" 
+      nonce="FOKrbAYI">
+</script>
+
+<!-- Your like button code -->
+<div class="fb-like" 
+     data-href="https://www.facebook.com/Xd7bet-104140748993085" 
+     data-width=""
+     data-layout="standard" 
+     data-action="like" 
+     data-size="small"  
+     data-share="true">
+</div>
+
   <h1>
-    
   <img id="ImgLogo" src="https://cdn.discordapp.com/attachments/937407559416029189/985451116768669706/logo_xd-bet1.png" style="width: 80%"><br><br>
   <input type="button" id="btnShare" style="width: 80%" class="button" value="แชร์กิจกรรม กดเลย..">
 
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v14.0" nonce="HPJk4VLa"></script>
   <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
-
   </h1>
  
   <div class="slideshow-container">
