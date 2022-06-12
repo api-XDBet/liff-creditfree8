@@ -96,7 +96,7 @@ async function shareMsg() {
             contents: [
               {
                 type: 'bubble',
-                size: 'giga',
+                size: 'mega',
                 direction: 'ltr',
                 hero: {
                   type: 'image',
@@ -148,7 +148,7 @@ async function shareMsg() {
               },
               {
                 type: 'bubble',
-                size: 'giga',
+                size: 'mega',
                 direction: 'ltr',
                 hero: {
                   type: 'image',
@@ -200,7 +200,7 @@ async function shareMsg() {
               },
               {
                 type: 'bubble',
-                size: 'giga',
+                size: 'mega',
                 direction: 'ltr',
                 hero: {
                   type: 'image',
