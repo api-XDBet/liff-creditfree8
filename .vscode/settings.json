@@ -399,15 +399,15 @@
    * Enable rendering of current line highlight.
    * Defaults to all.
    */
-  "editor.renderLineHighlight": "all",
+  // "editor.renderLineHighlight": "all",
   /**
    * Inserting and deleting whitespace follows tab stops.
    */
-  "editor.useTabStops": true,
+  // "editor.useTabStops": true,
   /**
    * The font family
    */
-  "editor.fontFamily": "Menlo, Monaco, 'Saraban', monospace",
+  "editor.fontFamily": "Menlo, Monaco, 'sarabun', monospace",
   /**
    * The font weight
    */
@@ -415,15 +415,15 @@
   /**
    * The font size
    */
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   /**
    * The line height
    */
-  "editor.lineHeight": 1.2,
+  "editor.lineHeight": 1.5,
   /**
    * The letter spacing
    */
-  "editor.letterSpacing": 1,
+  "editor.letterSpacing": 0,
   /**
    * Controls fading out of unused variables.
    */
