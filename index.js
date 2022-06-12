@@ -45,47 +45,6 @@ async function getUserProfile() {
 async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
-      type: 'image',
-      originalContentUrl:
-        'https://xd7bet.com/wp-content/uploads/2022/05/promotion-7-1-1280x273.png',
-    },
-  ]);
-  if (result) {
-    alert('Msg was shared!');
-  } else {
-    alert('ShareTargetPicker was cancelled by user');
-  }
-  liff.closeWindow();
-}
-
-var mybutton = document.getElementById('myTopBtn');
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = 'block';
-  } else {
-    mybutton.style.display = 'none';
-  }
-}
-
-myTopBtn.onclick = function () {
-  topFunction();
-};
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-// *8. Create shareMsg()
-async function shareMsg() {
-  const result = await liff.shareTargetPicker([
-    {
       type: 'flex',
       altText: 'งง',
       contents: {
@@ -100,6 +59,40 @@ async function shareMsg() {
               size: 'full',
               aspectRatio: '6:3.5',
               aspectMode: 'cover',
+            },
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              backgroundColor: '#050010FF',
+              borderColor: '#050010FF',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'ทุกยอดฝาก',
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFFFF',
+                  align: 'center',
+                  contents: [],
+                },
+                {
+                  type: 'text',
+                  text: 'รับเพิ่ม 5% !!!',
+                  weight: 'bold',
+                  size: '3xl',
+                  color: '#FFFFFFFF',
+                  align: 'center',
+                  contents: [],
+                },
+                {
+                  type: 'text',
+                  text: '*โบนัสสูงสุด 2,000 บาท',
+                  weight: 'bold',
+                  size: 'sm',
+                  color: '#FF4242FF',
+                  contents: [],
+                },
+              ],
             },
             footer: {
               type: 'box',
@@ -152,6 +145,40 @@ async function shareMsg() {
               aspectRatio: '6:3.5',
               aspectMode: 'cover',
             },
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              backgroundColor: '#050010FF',
+              borderColor: '#050010FF',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'ทุกยอดฝาก',
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFFFF',
+                  align: 'center',
+                  contents: [],
+                },
+                {
+                  type: 'text',
+                  text: 'รับเพิ่ม 5% !!!',
+                  weight: 'bold',
+                  size: '3xl',
+                  color: '#FFFFFFFF',
+                  align: 'center',
+                  contents: [],
+                },
+                {
+                  type: 'text',
+                  text: '*โบนัสสูงสุด 2,000 บาท',
+                  weight: 'bold',
+                  size: 'sm',
+                  color: '#FF4242FF',
+                  contents: [],
+                },
+              ],
+            },
             footer: {
               type: 'box',
               layout: 'horizontal',
@@ -202,6 +229,40 @@ async function shareMsg() {
               size: 'full',
               aspectRatio: '6:3.5',
               aspectMode: 'cover',
+            },
+            body: {
+              type: 'box',
+              layout: 'vertical',
+              backgroundColor: '#050010FF',
+              borderColor: '#050010FF',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'ทุกยอดฝาก',
+                  weight: 'bold',
+                  size: 'xl',
+                  color: '#FFFFFFFF',
+                  align: 'center',
+                  contents: [],
+                },
+                {
+                  type: 'text',
+                  text: 'รับเพิ่ม 5% !!!',
+                  weight: 'bold',
+                  size: '3xl',
+                  color: '#FFFFFFFF',
+                  align: 'center',
+                  contents: [],
+                },
+                {
+                  type: 'text',
+                  text: '*โบนัสสูงสุด 2,000 บาท',
+                  weight: 'bold',
+                  size: 'sm',
+                  color: '#FF4242FF',
+                  contents: [],
+                },
+              ],
             },
             footer: {
               type: 'box',
@@ -254,6 +315,30 @@ async function shareMsg() {
     alert('ShareTargetPicker was cancelled by user');
   }
   liff.closeWindow();
+}
+
+var mybutton = document.getElementById('myTopBtn');
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = 'block';
+  } else {
+    mybutton.style.display = 'none';
+  }
+}
+
+myTopBtn.onclick = function () {
+  topFunction();
+};
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 // 9. Add event listener to share button
