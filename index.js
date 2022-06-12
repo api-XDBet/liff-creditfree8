@@ -249,9 +249,7 @@ async function shareMsg() {
               },
             ],
           },
-        ],
       },
-    },
   ]);
   if (result) {
     alert('Msg was shared!');
