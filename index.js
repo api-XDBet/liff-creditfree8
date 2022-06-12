@@ -89,167 +89,164 @@ async function shareMsg() {
       type: 'flex',
       altText: 'งง',
       contents: {
-            type: 'carousel',
-            contents: [
-              {
-                type: 'bubble',
-                size: 'mega',
-                direction: 'ltr',
-                hero: {
-                  type: 'image',
-                  url: 'https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_7-1.png',
-                  size: 'full',
-                  aspectRatio: '6:3.5',
-                  aspectMode: 'cover',
-                },
-                footer: {
-                  type: 'box',
-                  layout: 'horizontal',
-                  spacing: 'xl',
-                  margin: 'none',
-                  backgroundColor: '#050010FF',
-                  borderColor: '#050010FF',
-                  contents: [
-                    {
-                      type: 'button',
-                      action: {
-                        type: 'uri',
-                        label: 'สมัครสมาชิก',
-                        uri: 'https://m2.xd8bet.com/dashboard/login?id',
-                      },
-                      color: '#00A921FF',
-                      margin: 'none',
-                      height: 'sm',
-                      style: 'primary',
-                    },
-                    {
-                      type: 'button',
-                      action: {
-                        type: 'uri',
-                        label: 'แชร์',
-                        uri: 'https://linecorp.com',
-                      },
-                      color: '#002BDAFF',
-                      margin: 'none',
-                      height: 'sm',
-                      style: 'primary',
-                    },
-                  ],
-                },
-                styles: {
-                  footer: {
-                    separator: false,
-                    separatorColor: '#050010FF',
+        "type": "carousel",
+        "contents": [
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "hero": {
+              "type": "image",
+              "url": "https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_7-1.png",
+              "size": "full",
+              "aspectRatio": "6:3.5",
+              "aspectMode": "cover"
+            },
+            "footer": {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "xl",
+              "margin": "none",
+              "backgroundColor": "#050010FF",
+              "borderColor": "#050010FF",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "สมัครสมาชิก",
+                    "uri": "https://m2.xd8bet.com/dashboard/login?id"
                   },
+                  "color": "#00A921FF",
+                  "margin": "none",
+                  "height": "sm",
+                  "style": "primary"
                 },
-              },
-              {
-                type: 'bubble',
-                size: 'mega',
-                direction: 'ltr',
-                hero: {
-                  type: 'image',
-                  url: 'https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_9-1.png',
-                  size: 'full',
-                  aspectRatio: '6:3.5',
-                  aspectMode: 'cover',
-                },
-                footer: {
-                  type: 'box',
-                  layout: 'horizontal',
-                  spacing: 'xl',
-                  margin: 'none',
-                  backgroundColor: '#050010FF',
-                  borderColor: '#050010FF',
-                  contents: [
-                    {
-                      type: 'button',
-                      action: {
-                        type: 'uri',
-                        label: 'สมัครสมาชิก',
-                        uri: 'https://m2.xd8bet.com/dashboard/login?id',
-                      },
-                      color: '#00A921FF',
-                      margin: 'none',
-                      height: 'sm',
-                      style: 'primary',
-                    },
-                    {
-                      type: 'button',
-                      action: {
-                        type: 'uri',
-                        label: 'แชร์',
-                        uri: 'https://linecorp.com',
-                      },
-                      color: '#002BDAFF',
-                      margin: 'none',
-                      height: 'sm',
-                      style: 'primary',
-                    },
-                  ],
-                },
-                styles: {
-                  footer: {
-                    separator: false,
-                    separatorColor: '#050010FF',
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "แชร์",
+                    "uri": "https://linecorp.com"
                   },
-                },
-              },
-              {
-                type: 'bubble',
-                size: 'mega',
-                direction: 'ltr',
-                hero: {
-                  type: 'image',
-                  url: 'https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_10-1.png',
-                  size: 'full',
-                  aspectRatio: '6:3.5',
-                  aspectMode: 'cover',
-                },
-                footer: {
-                  type: 'box',
-                  layout: 'horizontal',
-                  spacing: 'xl',
-                  margin: 'none',
-                  backgroundColor: '#050010FF',
-                  borderColor: '#050010FF',
-                  contents: [
-                    {
-                      type: 'button',
-                      action: {
-                        type: 'uri',
-                        label: 'สมัครสมาชิก',
-                        uri: 'https://m2.xd8bet.com/dashboard/login?id',
-                      },
-                      color: '#00A921FF',
-                      margin: 'none',
-                      height: 'sm',
-                      style: 'primary',
-                    },
-                    {
-                      type: 'button',
-                      action: {
-                        type: 'uri',
-                        label: 'แชร์',
-                        uri: 'https://linecorp.com',
-                      },
-                      color: '#002BDAFF',
-                      margin: 'none',
-                      height: 'sm',
-                      style: 'primary',
-                    },
-                  ],
-                },
-                styles: {
-                  footer: {
-                    separator: false,
-                    separatorColor: '#050010FF',
-                  },
-                },
-              },
-            ],
+                  "color": "#002BDAFF",
+                  "margin": "none",
+                  "height": "sm",
+                  "style": "primary"
+                }
+              ]
+            },
+            "styles": {
+              "footer": {
+                "separator": false,
+                "separatorColor": "#050010FF"
+              }
+            }
           },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "hero": {
+              "type": "image",
+              "url": "https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_9-1.png",
+              "size": "full",
+              "aspectRatio": "6:3.5",
+              "aspectMode": "cover"
+            },
+            "footer": {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "xl",
+              "margin": "none",
+              "backgroundColor": "#050010FF",
+              "borderColor": "#050010FF",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "สมัครสมาชิก",
+                    "uri": "https://m2.xd8bet.com/dashboard/login?id"
+                  },
+                  "color": "#00A921FF",
+                  "margin": "none",
+                  "height": "sm",
+                  "style": "primary"
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "แชร์",
+                    "uri": "https://linecorp.com"
+                  },
+                  "color": "#002BDAFF",
+                  "margin": "none",
+                  "height": "sm",
+                  "style": "primary"
+                }
+              ]
+            },
+            "styles": {
+              "footer": {
+                "separator": false,
+                "separatorColor": "#050010FF"
+              }
+            }
+          },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "hero": {
+              "type": "image",
+              "url": "https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_10-1.png",
+              "size": "full",
+              "aspectRatio": "6:3.5",
+              "aspectMode": "cover"
+            },
+            "footer": {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "xl",
+              "margin": "none",
+              "backgroundColor": "#050010FF",
+              "borderColor": "#050010FF",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "สมัครสมาชิก",
+                    "uri": "https://m2.xd8bet.com/dashboard/login?id"
+                  },
+                  "color": "#00A921FF",
+                  "margin": "none",
+                  "height": "sm",
+                  "style": "primary"
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "แชร์",
+                    "uri": "https://linecorp.com"
+                  },
+                  "color": "#002BDAFF",
+                  "margin": "none",
+                  "height": "sm",
+                  "style": "primary"
+                }
+              ]
+            },
+            "styles": {
+              "footer": {
+                "separator": false,
+                "separatorColor": "#050010FF"
+              }
+            }
+          }
+        ]
       },
+    },
   ]);
   if (result) {
     alert('Msg was shared!');
