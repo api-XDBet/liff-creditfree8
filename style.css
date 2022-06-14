@@ -54,9 +54,9 @@ img {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 0px;
-  width: 0px;
-  margin: 0 2px;
+  height: 5px;
+  width: 5px;
+  margin: 5 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -139,18 +139,71 @@ img {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  left: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: red; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  padding: 5px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 12px; /* Increase font size */
 }
 
 #myTopBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+form {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+legend {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 20px;
+  position: absolution;
+  bottom: 8px;
+  width: auto;
+  text-align: center;
+}
+
+table {
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  text-align: center;
+  border-collapse: collapse;
+  width: auto;
+}
+
+th {
+  text-align: right;
+  padding: 5px;
+}
+
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #d6eeee00;
+}
+
+fieldset {
+  text-align: center;
 }
