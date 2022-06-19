@@ -5,18 +5,22 @@ body {
   background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
   font-family: Verdana, sans-serif;
 }
+/* XD 8 BET */
+.logo {
+  position: relative;
+  text-align: center;
+  margin: 0 0 15% 0;
+  /* margin-top: -5%; */
+}
 
-.logoR {
-  position: absolute;
-  margin-left: 50px;
-  margin-right: 0px;
+/* XD BET */
+/* .logoL {
+  position: fixed;
+  left: 0%;
+  margin: 4% 4% 4% 4%;
   margin-top: -5%;
-}
-.logoL {
-  position: absolute;
-  margin-left: -175px;
-  margin-top: -4%;
-}
+  width: 45%;
+} */
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
