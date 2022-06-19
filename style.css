@@ -7,15 +7,14 @@ body {
 }
 
 .logoR {
-  position: relative;
-  margin: auto;
-  left: 35%;
-  top: 100%;
+  position: fixed;
+  margin-left: 12%;
+  margin-top: -5%;
 }
 .logoL {
-  position: relative;
-  margin: auto;
-  right: 25%;
+  position: fixed;
+  margin-right: 12%;
+  margin-top: -5%;
 }
 
 h1 {
