@@ -9,7 +9,8 @@ body {
 .logoR {
   position: relative;
   margin: auto;
-  left: 25%;
+  left: 35%;
+  top: 100%;
 }
 .logoL {
   position: relative;
