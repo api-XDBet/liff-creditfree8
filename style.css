@@ -7,7 +7,14 @@ body {
 }
 
 .logoR {
-  padding-right: 100%;
+  position: relative;
+  margin: auto;
+  left: 25%;
+}
+.logoL {
+  position: relative;
+  margin: auto;
+  right: 25%;
 }
 
 h1 {
