@@ -6,6 +6,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+.logoR {
+  padding-right: 100%;
+}
+
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
