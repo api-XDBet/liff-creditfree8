@@ -1,8 +1,9 @@
 /* Place your CSS styles in this file */
 body {
+  position: relative;
   font-family: Verdana, sans-serif;
-  margin: 20px;
-  height: 100%;
+  margin: 5px;
+  width: 100%;
   background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
 }
 header {
@@ -93,29 +94,17 @@ img {
 }
 
 .button {
-  width: 90%;
-  padding: 10px 0;
-  font-size: 18px;
-  margin: 0px auto;
-  display: -moz-box;
-  display: -webkit-box;
-  display: box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  box-pack: center;
-  box-align: center;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border: 1px solid #f1f1f1;
-  border-radius: 20px;
-  box-shadow: 0 5px rgb(65, 65, 65);
+  border: none;
+  color: white;
+  padding: 10px 15px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 3px 0px;
   cursor: pointer;
-  outline: none;
-  color: #f1f1f1;
-  background-color: #fe0000;
+  box-shadow: 0 5px rgb(65, 65, 65);
+  border-radius: 80% 80%;
 }
 
 .success {
@@ -123,19 +112,13 @@ img {
   color: #ff0000;
 }
 
-.button:hover {
-  background-color: #ff5d5d;
-  color: #ffffff;
-
+.button:active {
+  background-color: #00ae2b;
+  color: #ffee00;
   box-shadow: 0 5px rgb(43, 43, 43);
   transition: transform 0.3s;
   transform-style: preserve-3d;
   transform: rotateX(720deg);
-}
-
-.button:active {
-  background-color: #00ae2b;
-  color: #ffee00;
 }
 
 #myTopBtn {
@@ -153,11 +136,9 @@ img {
   border-radius: 50px; /* Rounded corners */
   font-size: 12px; /* Increase font size */
 }
-
 #myTopBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-
 form {
   color: #f2f2f2;
   font-size: 15px;
@@ -167,17 +148,14 @@ form {
   width: 100%;
   text-align: center;
 }
-
 legend {
   color: #f2f2f2;
   font-size: 30px;
   padding: 8px 20px;
-  position: absolution;
+  position: absolute;
   bottom: 8px;
-  width: auto;
   text-align: center;
 }
-
 table {
   display: -moz-box;
   display: -webkit-box;
@@ -190,23 +168,25 @@ table {
   box-align: center;
   text-align: center;
   border-collapse: collapse;
-  width: auto;
 }
-
 th {
   text-align: right;
   padding: 5px;
+  width: 80%;
 }
-
 td {
   text-align: left;
   padding: 5px;
 }
-
 tr:nth-child(even) {
   background-color: #d6eeee00;
 }
-
 fieldset {
   text-align: center;
+}
+.button1 {
+  background-color: darkblue;
+}
+.button2 {
+  background-color: darkred;
 }
