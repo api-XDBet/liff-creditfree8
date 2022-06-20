@@ -112,8 +112,6 @@ img {
   color: #ffee00;
   box-shadow: 0 5px rgb(43, 43, 43);
   transition: transform 0.3s;
-  transform-style: preserve-3d;
-  transform: rotateX(720deg);
 }
 
 #myTopBtn {
