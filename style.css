@@ -107,11 +107,6 @@ img {
   border-radius: 80% 80%;
 }
 
-.success {
-  background-color: #00ff7b;
-  color: #ff0000;
-}
-
 .button:active {
   background-color: #00ae2b;
   color: #ffee00;
