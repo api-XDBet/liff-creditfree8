@@ -7,13 +7,11 @@ body {
 }
 /* XD 8 BET */
 #myimg-r {
-  left: 0%;
-  margin: 4% 4% 4% 4%;
-  margin-top: -5%;
-  width: 100%;
-  text-align: end;
+  text-align-last: right;
 }
-
+#myimg-l {
+  text-align-last: justify;
+}
 /* XD BET */
 /* .logoL {
   left: 0%;
