@@ -105,6 +105,7 @@ img {
   cursor: pointer;
   box-shadow: 0 5px rgb(65, 65, 65);
   border-radius: 80% 80%;
+  position: fixed;
 }
 
 .button:active {
