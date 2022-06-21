@@ -1,21 +1,16 @@
 /* Place your CSS styles in this file */
 body {
-  position: relative;
+  position: absolute;
   font-family: Verdana, sans-serif;
-  margin: 5px;
-  width: 100%;
+  margin: 15px;
+  width: 98%;
+  text-align: center;
   background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
 }
+/* โลโก้ XD8Bet */
 header {
-  cursor: auto;
   text-align: center;
-  vertical-align: top;
-}
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-  font-weight: normal;
-  margin: auto;
+  vertical-align: middle;
 }
 
 * {
@@ -26,6 +21,8 @@ h1 {
 }
 img {
   vertical-align: middle;
+  border-radius: 20px;
+  text-align: center;
 }
 
 /* Slideshow container */
@@ -56,10 +53,10 @@ img {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* จุดบอกตำแหน่งใต้ภาพ */
 .dot {
-  height: 5px;
-  width: 5px;
+  height: 8px;
+  width: 8px;
   margin: 5 2px;
   background-color: #bbb;
   border-radius: 50%;
