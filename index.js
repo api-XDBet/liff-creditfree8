@@ -46,7 +46,7 @@ async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
       type: 'flex',
-      altText: 'งง',
+      altText: 'แชร์กิจกรรม',
       contents: {
         type: 'carousel',
         contents: [
@@ -55,7 +55,7 @@ async function shareMsg() {
             direction: 'ltr',
             hero: {
               type: 'image',
-              url: 'https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_7-1.png',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/987951052009660436/promotion_9.png',
               size: 'full',
               aspectRatio: '6:3.5',
               aspectMode: 'cover',
@@ -68,7 +68,7 @@ async function shareMsg() {
               contents: [
                 {
                   type: 'text',
-                  text: 'ทุกยอดฝาก',
+                  text: 'ฝากแรกของวัน',
                   weight: 'bold',
                   size: 'xl',
                   color: '#FFFFFFFF',
@@ -77,7 +77,7 @@ async function shareMsg() {
                 },
                 {
                   type: 'text',
-                  text: 'รับเพิ่ม 5% !!!',
+                  text: 'รับเพิ่ม 20% !!!',
                   weight: 'bold',
                   size: '3xl',
                   color: '#FFFFFFFF',
@@ -118,8 +118,8 @@ async function shareMsg() {
                   type: 'button',
                   action: {
                     type: 'uri',
-                    label: 'แชร์',
-                    uri: 'https://linecorp.com',
+                    label: 'ติดต่อแอดมิน',
+                    uri: 'https://liff.line.me/1656413202-XmQOge58',
                   },
                   color: '#002BDAFF',
                   margin: 'none',
@@ -140,7 +140,7 @@ async function shareMsg() {
             direction: 'ltr',
             hero: {
               type: 'image',
-              url: 'https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_9-1.png',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/987951052315820052/promotion_12.png',
               size: 'full',
               aspectRatio: '6:3.5',
               aspectMode: 'cover',
@@ -153,7 +153,7 @@ async function shareMsg() {
               contents: [
                 {
                   type: 'text',
-                  text: 'ทุกยอดฝาก',
+                  text: 'แนะนำเพื่อน',
                   weight: 'bold',
                   size: 'xl',
                   color: '#FFFFFFFF',
@@ -171,7 +171,7 @@ async function shareMsg() {
                 },
                 {
                   type: 'text',
-                  text: '*โบนัสสูงสุด 2,000 บาท',
+                  text: 'ชวนเพื่อนได้ ไม่จำกัด🎉',
                   weight: 'bold',
                   size: 'sm',
                   color: '#FF4242FF',
@@ -203,8 +203,8 @@ async function shareMsg() {
                   type: 'button',
                   action: {
                     type: 'uri',
-                    label: 'แชร์',
-                    uri: 'https://linecorp.com',
+                    label: 'ติดต่อแอดมิน',
+                    uri: 'https://liff.line.me/1656413202-XmQOge58',
                   },
                   color: '#002BDAFF',
                   margin: 'none',
@@ -225,7 +225,7 @@ async function shareMsg() {
             direction: 'ltr',
             hero: {
               type: 'image',
-              url: 'https://www.xd8bet.com/wp-content/uploads/2022/06/promotion_10-1.png',
+              url: 'https://cdn.discordapp.com/attachments/937407559416029189/987951052705923162/promotion_13.png',
               size: 'full',
               aspectRatio: '6:3.5',
               aspectMode: 'cover',
@@ -238,7 +238,7 @@ async function shareMsg() {
               contents: [
                 {
                   type: 'text',
-                  text: 'ทุกยอดฝาก',
+                  text: 'สมาชิกใหม่ ฝากครั้งแรก',
                   weight: 'bold',
                   size: 'xl',
                   color: '#FFFFFFFF',
@@ -247,7 +247,7 @@ async function shareMsg() {
                 },
                 {
                   type: 'text',
-                  text: 'รับเพิ่ม 5% !!!',
+                  text: 'รับเพิ่ม 50% !!!',
                   weight: 'bold',
                   size: '3xl',
                   color: '#FFFFFFFF',
@@ -256,7 +256,7 @@ async function shareMsg() {
                 },
                 {
                   type: 'text',
-                  text: '*โบนัสสูงสุด 2,000 บาท',
+                  text: '*โบนัสสูงสุด 9,999 บาท',
                   weight: 'bold',
                   size: 'sm',
                   color: '#FF4242FF',
@@ -288,8 +288,8 @@ async function shareMsg() {
                   type: 'button',
                   action: {
                     type: 'uri',
-                    label: 'แชร์',
-                    uri: 'https://linecorp.com',
+                    label: 'ติดต่อแอดมิน',
+                    uri: 'https://liff.line.me/1656413202-XmQOge58',
                   },
                   color: '#002BDAFF',
                   margin: 'none',
