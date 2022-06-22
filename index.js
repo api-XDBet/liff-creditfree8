@@ -131,7 +131,7 @@ async function shareMsg() {
             styles: {
               footer: {
                 separator: 'false',
-                separatorcolor: '#050010FF',
+                separatorColor: '#050010FF',
               },
             },
           },
@@ -192,7 +192,7 @@ async function shareMsg() {
                   action: {
                     type: 'uri ',
                     label: 'สมัครสมาชิก',
-                    uri: ':"https://m2.xd8bet.com/dashboard/login?id',
+                    uri: 'https://m2.xd8bet.com/dashboard/login?id',
                   },
                   color: '#00A921FF',
                   margin: 'none',
@@ -216,7 +216,7 @@ async function shareMsg() {
             styles: {
               footer: {
                 separator: 'false',
-                separatorcolor: '#050010FF',
+                separatorColor: '#050010FF',
               },
             },
           },
@@ -301,7 +301,7 @@ async function shareMsg() {
             styles: {
               footer: {
                 separator: 'false',
-                separatorcolor: '#050010FF',
+                separatorColor: '#050010FF',
               },
             },
           },
@@ -317,7 +317,7 @@ async function shareMsg() {
   liff.closeWindow();
 }
 
-var mybutton = document.getElementById('myTopBtn');
+// var mybutton = document.getElementById('myTopBtn');
 
 // When the user scrolls down 20px from the top of the document, show the button
 // window.onscroll = function () {
