@@ -11,7 +11,8 @@ const btnShare = document.getElementById('btnShare');
 const btnRegis = document.getElementById('btnRegis');
 
 function urlRegister() {
-  const result = 'https://m2.xd8bet.com/login?id';
+  const url = 'https://m2.xd8bet.com/login?id';
+  get.url
   if (result) {
     alert('สมัครสมาชิก');
   } else {
