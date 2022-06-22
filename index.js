@@ -8,6 +8,21 @@ import liff from '@line/liff';
 // Profile elements
 // Button elements
 const btnShare = document.getElementById('btnShare');
+const btnRegis = document.getElementById('btnRegis');
+
+function urlRegister() {
+  const result = 'https://m2.xd8bet.com/login?id';
+  if (result) {
+    alert('สมัครสมาชิก');
+  } else {
+    alert('ทำรายการไม่ถูกต้อง โปรดติดต่อแอดมิน');
+  }
+  liff.closeWindow();
+}
+
+btnRegis.onclick = () => {
+  urlRegister();
+};
 
 async function main() {
   // 2. liff.ready
