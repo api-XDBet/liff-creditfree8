@@ -46,7 +46,7 @@ async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
       type: 'flex',
-      altText: 'แชร์กิจกรรม',
+      altText: 'งง',
       contents: {
         type: 'carousel',
         contents: [
@@ -275,9 +275,9 @@ async function shareMsg() {
                 {
                   type: 'button',
                   action: {
-                    type: 'uri ',
+                    type: 'uri',
                     label: 'สมัครสมาชิก',
-                    uri: ':"https://m2.xd8bet.com/dashboard/login?id',
+                    uri: 'https://m2.xd8bet.com/dashboard/login?id',
                   },
                   color: '#00A921FF',
                   margin: 'none',
