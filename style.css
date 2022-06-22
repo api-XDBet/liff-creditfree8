@@ -191,5 +191,6 @@ footer {
   position: fixed;
   display: inline-block;
   border: none;
-  bottom: 20px;
+  bottom: 5px;
+  left: 20p;
 }
