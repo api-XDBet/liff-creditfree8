@@ -3,7 +3,7 @@ body {
   position: relative;
   font-family: Verdana, sans-serif;
   margin: 5px;
-  width: 100%;
+  height: 100%;
   text-align: center;
   background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
 }
@@ -168,16 +168,20 @@ tr:nth-child(even) {
 fieldset {
   text-align: center;
 }
+/* แชร์ */
 .button1 {
   background-color: darkblue;
-  left: 20px;
+  right: 40px;
+  /* left: 20px; */
   text-align: center;
   display: inline-block;
   border: 2px solid #f2f2f2;
 }
+/* สมัคร */
 .button2 {
   background-color: darkred;
-  right: 20px;
+  left: 40px;
+  /* right: 20px; */
   text-align: center;
   display: inline-block;
   border: 2px solid #f2f2f2;
