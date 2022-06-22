@@ -188,9 +188,8 @@ fieldset {
 }
 
 footer {
+  padding: 15px;
   position: fixed;
-  display: inline-block;
   border: none;
-  bottom: 5px;
-  left: 20p;
+  bottom: -5px;
 }
