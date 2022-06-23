@@ -20,12 +20,12 @@ pre {
   bottom: 0px;
 }
 .top-right {
-  position: fixed;
+  position: absolute;
   top: 5px;
   right: 10px;
 }
 .top-left {
-  position: fixed;
+  position: absolute;
   top: 5px;
   left: -5px;
 }

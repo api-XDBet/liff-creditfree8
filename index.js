@@ -8,6 +8,7 @@ import liff from '@line/liff';
 // Profile elements
 // Button elements
 const btnShare = document.getElementById('btnShare');
+const btnSignUp = document.getElementById('btnSignUp');
 
 async function main() {
   // 2. liff.ready
@@ -397,11 +398,10 @@ async function shareMsg() {
 
 // var mybutton = document.getElementById('myTopBtn');
 
-// When the user scrolls down 20px from the top of the document, show the button
+/* When the user scrolls down 20px from the top of the document, show the button */
 // window.onscroll = function () {
 //   scrollFunction();
 // };
-
 // function scrollFunction() {
 //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 //     mybutton.style.display = 'block';
@@ -409,11 +409,10 @@ async function shareMsg() {
 //     mybutton.style.display = 'none';
 //   }
 // }
-
 // myTopBtn.onclick = function () {
 //   topFunction();
 // };
-// When the user clicks on the button, scroll to the top of the document
+/* When the user clicks on the button, scroll to the top of the document */
 // function topFunction() {
 //   document.body.scrollTop = 0;
 //   document.documentElement.scrollTop = 0;
@@ -422,6 +421,19 @@ async function shareMsg() {
 // 9. Add event listener to share button
 btnShare.onclick = () => {
   shareMsg();
+};
+
+async function register() {
+  const result = await liff.getUrl('https://www.google.com/');
+  if (result) {
+    alert('goodjob bro!!');
+  } else {
+    alert('????');
+  }
+}
+
+btnSignUp.onclick = () => {
+  register();
 };
 
 /* Place your JavaScript in this file */
@@ -444,5 +456,5 @@ function showSlides() {
   }
   slides[slideIndex - 1].style.display = 'block';
   dots[slideIndex - 1].className += ' active';
-  setTimeout(showSlides, 5000); // [ กำหนดเวลาเปลี่ยนรูปสไลด์ *หน่วยเป็น ms. เช่น 1000ms. = 1 sec.* ]
+  setTimeout(showSlides, 4000); // [ กำหนดเวลาเปลี่ยนรูปสไลด์ *หน่วยเป็น ms. เช่น 1000ms. = 1 sec.* ]
 }
