@@ -12,7 +12,7 @@ const btnRegis = document.getElementById('btnRegis');
 
 function urlRegister() {
   const url = 'https://m2.xd8bet.com/login?id';
-  get.url
+  get.url;
   if (result) {
     alert('สมัครสมาชิก');
   } else {
