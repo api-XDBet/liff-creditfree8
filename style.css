@@ -2,10 +2,6 @@
 body {
   position: relative;
   font-family: Verdana, sans-serif;
-  margin: 5px;
-  height: 100%;
-  text-align: center;
-  /* background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif'); */
 }
 /* โลโก้ XD8Bet */
 
@@ -13,6 +9,8 @@ body {
   position: fixed;
   text-align: center;
   color: white;
+  top: 0px;
+  left: 0px;
 }
 .top-right {
   position: fixed;
