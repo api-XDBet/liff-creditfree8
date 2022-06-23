@@ -1,12 +1,11 @@
 /* Place your CSS styles in this file */
 body {
-  position: relative;
   font-family: Verdana, sans-serif;
 }
 /* โลโก้ XD8Bet */
 
 .container {
-  position: relative;
+  position: fixed;
   text-align: center;
   color: white;
   top: 0px;
@@ -16,13 +15,13 @@ body {
 }
 .top-right {
   position: fixed;
-  top: 8px;
-  right: 20px;
+  top: 5px;
+  right: 5px;
 }
 .top-left {
   position: fixed;
-  top: 8px;
-  left: 20px;
+  top: 5px;
+  left: 5px;
 }
 /* จบ โลโก้ XD8Bet */
 
