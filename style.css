@@ -8,20 +8,20 @@ body {
   background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
 }
 /* โลโก้ XD8Bet */
-/* .container {
+.container {
   position: relative;
   text-align: center;
   color: white;
-} */
+}
 .top-right {
   position: relative;
   top: 8px;
-  right: 16px;
+  right: 50px;
 }
 .top-left {
   position: relative;
   top: 8px;
-  left: 16px;
+  left: 50px;
 }
 /* จบ โลโก้ XD8Bet */
 
