@@ -5,23 +5,24 @@ body {
   margin: 5px;
   height: 100%;
   text-align: center;
-  background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
+  /* background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif'); */
 }
 /* โลโก้ XD8Bet */
+
 .container {
-  position: relative;
+  position: fixed;
   text-align: center;
   color: white;
 }
 .top-right {
-  position: relative;
+  position: fixed;
   top: 8px;
-  right: 50px;
+  right: 20px;
 }
 .top-left {
-  position: relative;
+  position: fixed;
   top: 8px;
-  left: 50px;
+  left: 20px;
 }
 /* จบ โลโก้ XD8Bet */
 
@@ -31,9 +32,9 @@ body {
 .mySlides {
   display: none;
 }
-img {
+.image {
   vertical-align: middle;
-  border-radius: 20px;
+  border-radius: 15px;
   text-align: center;
   display: inline-block;
   right: 10px;
