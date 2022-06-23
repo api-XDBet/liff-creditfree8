@@ -6,11 +6,13 @@ body {
 /* โลโก้ XD8Bet */
 
 .container {
-  position: fixed;
+  position: relative;
   text-align: center;
   color: white;
   top: 0px;
   left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 .top-right {
   position: fixed;
