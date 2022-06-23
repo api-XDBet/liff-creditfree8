@@ -2,8 +2,14 @@
 body {
   font-family: Verdana, sans-serif;
 }
-/* โลโก้ XD8Bet */
+pre {
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
 
+/* โลโก้ XD8Bet */
 .container {
   position: fixed;
   text-align: center;
@@ -16,12 +22,12 @@ body {
 .top-right {
   position: fixed;
   top: 5px;
-  right: 5px;
+  right: 10px;
 }
 .top-left {
   position: fixed;
   top: 5px;
-  left: 5px;
+  left: -5px;
 }
 /* จบ โลโก้ XD8Bet */
 
@@ -36,8 +42,9 @@ body {
   border-radius: 15px;
   text-align: center;
   display: inline-block;
-  right: 10px;
-  left: 10px;
+  top: 5px;
+  right: 5px;
+  left: 5px;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -199,7 +206,6 @@ fieldset {
   display: inline-block;
   border: 2px solid #f2f2f2;
 }
-
 footer {
   text-align: center;
   padding: 5px;
