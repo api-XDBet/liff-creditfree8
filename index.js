@@ -445,9 +445,9 @@ function showSlides() {
   setTimeout(showSlides, 4000); // [ กำหนดเวลาเปลี่ยนรูปสไลด์ *หน่วยเป็น ms. เช่น 1000ms. = 1 sec.* ]
 }
 
-const btnRegis = document.getElementById('btnRegis');
+const signUpbtn = document.getElementById('signUpbtn');
 
-btnRegis.onclick = () => {
+signUpbtn.onclick = () => {
   openWindow();
 };
 async function openWindow() {
@@ -455,4 +455,5 @@ async function openWindow() {
     url: 'https://m2.xd8bet.com/login?id',
     external: true,
   });
+  liff.closeWindow();
 }
