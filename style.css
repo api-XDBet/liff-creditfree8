@@ -2,7 +2,7 @@
 body {
   font-family: Verdana, sans-serif;
 }
-pre {
+h2 {
   position: relative;
   font-size: 30px;
   text-align: center;
@@ -205,11 +205,4 @@ fieldset {
   text-align: center;
   display: inline-block;
   border: 2px solid #f2f2f2;
-}
-footer {
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  border: none;
-  bottom: -5px;
 }

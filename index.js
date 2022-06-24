@@ -8,7 +8,6 @@ import liff from '@line/liff';
 // Profile elements
 // Button elements
 const btnShare = document.getElementById('btnShare');
-const btnSignUp = document.getElementById('btnSignUp');
 
 async function main() {
   // 2. liff.ready

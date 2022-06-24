@@ -364,46 +364,46 @@
    * Selects the folding strategy. 'auto' uses the strategies contributed for the current document, 'indentation' uses the indentation based folding strategy.
    * Defaults to 'auto'.
    */
-  // "editor.foldingStrategy": "auto",
+  "editor.foldingStrategy": "auto",
   /**
    * Controls whether the fold actions in the gutter stay always visible or hide unless the mouse is over the gutter.
    * Defaults to 'mouseover'.
    */
-  // "editor.showFoldingControls": "mouseover",
+  "editor.showFoldingControls": "mouseover",
   /**
    * Enable highlighting of matching brackets.
    * Defaults to true.
    */
-  // "editor.matchBrackets": true,
+  "editor.matchBrackets": true,
   /**
    * Enable rendering of whitespace.
    * Defaults to none.
    */
-  // "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "none",
   /**
    * Enable rendering of control characters.
    * Defaults to false.
    */
-  // "editor.renderControlCharacters": false,
+  "editor.renderControlCharacters": false,
   /**
    * Enable rendering of indent guides.
    * Defaults to true.
    */
-  // "editor.renderIndentGuides": true,
+  "editor.renderIndentGuides": true,
   /**
    * Enable highlighting of the active indent guide.
    * Defaults to true.
    */
-  // "editor.highlightActiveIndentGuide": true,
+  "editor.highlightActiveIndentGuide": true,
   /**
    * Enable rendering of current line highlight.
    * Defaults to all.
    */
-  // "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlight": "all",
   /**
    * Inserting and deleting whitespace follows tab stops.
    */
-  // "editor.useTabStops": true,
+  "editor.useTabStops": true,
   /**
    * The font family
    */
@@ -415,7 +415,7 @@
   /**
    * The font size
    */
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   /**
    * The line height
    */
@@ -423,7 +423,7 @@
   /**
    * The letter spacing
    */
-  "editor.letterSpacing": 0,
+  "editor.letterSpacing": 0.5,
   /**
    * Controls fading out of unused variables.
    */
