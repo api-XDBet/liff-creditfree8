@@ -26,7 +26,7 @@ async function main() {
   // 10. Show share button
 
   // 1. Initialize LIFF app)
-  await liff.init({ liffId: '1657099145-Vrp9lE3O' });
+  await liff.init({ liffId: '1657145167-5WvX41bP' });
 }
 main();
 
