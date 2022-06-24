@@ -444,3 +444,15 @@ function showSlides() {
   dots[slideIndex - 1].className += ' active';
   setTimeout(showSlides, 4000); // [ กำหนดเวลาเปลี่ยนรูปสไลด์ *หน่วยเป็น ms. เช่น 1000ms. = 1 sec.* ]
 }
+
+const btnRegis = document.getElementById('btnRegis');
+
+btnRegis.onclick = () => {
+  openWindow();
+};
+async function openWindow() {
+  liff.openWindow({
+    url: 'https://m2.xd8bet.com/login?id',
+    external: true,
+  });
+}
