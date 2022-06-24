@@ -1,30 +1,50 @@
 /* Place your CSS styles in this file */
 body {
-  position: relative;
   font-family: Verdana, sans-serif;
-  margin: 5px;
-  height: 100%;
-  text-align: center;
-  background-image: url('https://64.media.tumblr.com/13d99bb5b03ddaacbc198a0941ee951d/de5a35eddd9fad73-8c/s640x960/386cbb24961f1ef355a3bd1d0c2ec0eb43f96950.gif');
 }
+pre {
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
 /* โลโก้ XD8Bet */
-header {
+.container {
+  position: fixed;
   text-align: center;
-  vertical-align: middle;
+  color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
+.top-right {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.top-left {
+  position: absolute;
+  top: 5px;
+  left: -5px;
+}
+/* จบ โลโก้ XD8Bet */
+
 * {
   box-sizing: border-box;
 }
 .mySlides {
   display: none;
 }
-img {
+.image {
   vertical-align: middle;
-  border-radius: 20px;
+  border-radius: 15px;
   text-align: center;
   display: inline-block;
-  right: 10px;
-  left: 10px;
+  top: 5px;
+  right: 5px;
+  left: 5px;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -186,7 +206,6 @@ fieldset {
   display: inline-block;
   border: 2px solid #f2f2f2;
 }
-
 footer {
   text-align: center;
   padding: 5px;
