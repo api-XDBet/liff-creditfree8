@@ -407,25 +407,25 @@
   /**
    * The font family
    */
-  "editor.fontFamily": "Menlo, Monaco, 'Saraban', monospace",
+  "editor.fontFamily": "Menlo, Monaco, 'sarabun', monospace",
   /**
    * The font weight
    */
-  // "editor.fontWeight": "normal",
+  "editor.fontWeight": "normal",
   /**
    * The font size
    */
-  "editor.fontSize": 16
+  "editor.fontSize": 18,
   /**
    * The line height
    */
-  // "editor.lineHeight": 18,
+  "editor.lineHeight": 1.5,
   /**
    * The letter spacing
    */
-  // "editor.letterSpacing": 4,
+  "editor.letterSpacing": 0,
   /**
    * Controls fading out of unused variables.
    */
-  // "editor.showUnused": true
+  "editor.showUnused": true
 }

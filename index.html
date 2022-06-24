@@ -1,76 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
-    />
-    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 
-    <title>test event</title>
-  </head>
+<head>
+  <title>กิจกรรมแจกเครดิตฟรี</title>
+  <!-- favicon คือรูป icon ที่อยุ่ในแท็บก่อน title -->
+  <link rel="icon" type="image/x-icon"
+    href="https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/Logo/XDBET-0.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="index.js"></script>
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style src="style.css"></style>
+</head>
 
-  <body>
-    <!-- <body id="body">
-<section id="profile">
-  <img id="pictureUrl" src="https://mokmoon.com/images/ic_liff.png" />
-  <p id="userId"></p>
-  <p id="displayName"></p>
-  <p id="statusMessage"></p>
-  <p id="email"></p>
-</section> -->
-
-    <!-- <img
-  id="imgPromotion"
-  src="https://central--management.s3.ap-southeast-1.amazonaws.com/xd7bet/promotion/1653404806500"
-  style="width: 100%"
-  />-->
-
-    <br />
-    <img
-      id="ImgLogo"
-      src="https://central--management.s3.ap-southeast-1.amazonaws.com/xd7bet/other/1653811911340"
-      style="width: 50%"
-    />
-    <br />
-
+<body>
+  <br>
+  <header>
+    <img src="https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/Logo/XD8.png" alt="XD8BET" style="width:65%">
+  </header>
+  <br>
+  <!-- ภาพสไลด์ -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">
+        <!-- หมายเลขภาพสไลด์ เช่น 1/5 -->
+      </div>
+      <img src="https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/slide_xd8/XD8_s1.png" alt="XD8BET ครบทุกลีกชั้นนำในเว็บเดียว กว่า 600 แมตช์ต่อสัปดาห์ ดูฟรีๆที่นี่ที่เดียว" style="width: 90%">
+      <div class="text">
+        <!-- ข้อความใต้รูปสไลด์ -->
+      </div>
+    </div>
     <div class="slideshow-container">
       <script src="index.js"><script>
       <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img
-          src="https://central--management.s3.ap-southeast-1.amazonaws.com/xd7bet/promotion/1653404806500"
-          style="border-radius: 10px; width: 100%"
-        />
-        <div class="text">1</div>
+        <div class="numbertext">
+          <!-- หมายเลขภาพสไลด์ เช่น 1/5 -->
+        </div>
+        <img src="https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/slide_xd8/XD8_s2.png" alt="XD8BET เว็บสล็อตออนไลน์รวมค่ายกว่า 3,000 เกม ให้ร่วมสนุก พร้อมโบนัสสุดพิเศษ" style="width: 90%">
+        <div class="text">
+          <!-- ข้อความใต้รูปสไลด์ -->
+        </div>
       </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">
+            <!-- หมายเลขภาพสไลด์ เช่น 1/5 -->
+          </div>
+          <img src="https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/slide_xd8/XD8_s3.png" alt="XD8BET อีสปอร์ต เกมต่อสู้ เกมยิงมุมมองบุคลที่สาม พร้อมจัดแข่งทัวต์นาเมนต์" style="width: 90%">
+          <div class="text">
+            <!-- ข้อความใต้รูปสไลด์ -->
+          </div>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/slide_xd8/XD8_s4.png" alt="XD8BET คาสิโนจากสถานที่จริง เพียงคลิกเดียวก็ชนะได้" style="width: 90%">
+            <div class="text">
+              <!-- ข้อความใต้รูปสไลด์ -->
+            </div>
+          </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">
+                <!-- หมายเลขภาพสไลด์ เช่น 1/5 -->
+              </div>
+              <img src="https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/slide_xd8/XD8_s5.png" alt="XD8BET เกมยิงปลา แตกง่าย จ่ายไว" style="width: 90%">
+              <div class="text">
+                <!-- ข้อความใต้รูปสไลด์ -->
+              </div>
+            </div>
+            <!-- จุดบอกตำแหน่งภาพสไลด์ -->
+            <div style="text-align: center">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <br>
 
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img
-          src="https://central--management.s3.ap-southeast-1.amazonaws.com/xd7bet/promotion/1653404977866"
-          style="width: 100%"
-        />
-        <div class="text">2</div>
-      </div>
+            <button type="button" id="btnShare" style="width:40%" class="button button1" value="แชร์กิจกรรม"></button>
+            <button type="button" id="btnRegis" style="width:40%" class="button button2" value="สมัครสมาชิก"></button>
 
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img
-          src="https://central--management.s3.ap-southeast-1.amazonaws.com/xd7bet/promotion/1648336680943"
-          style="width: 100%"
-        />
-        <div class="text">3</div>
-      </div>
+            <script src="index.js"></script>
+    </div>  
+</body>
 
-      <a class="prev" id="imgPrev" name="imgPrev">❮</a>
-      <a class="next" id="imgNext" name="imgNext">❯</a>
-    </div>
-    <br />
-
-    <section id="button">
-      <button id="btnShare">Share Message</button>
-    </section>
-  </body>
 </html>

@@ -4,21 +4,11 @@ import './style.css';
 // 0. Import LIFF SDK
 import liff from '@line/liff';
 
-// Body element
-const body = document.getElementById('body');
-
+//Get the button
 // Profile elements
-const pictureUrl = document.getElementById('pictureUrl');
-const userId = document.getElementById('userId');
-const displayName = document.getElementById('displayName');
-const statusMessage = document.getElementById('statusMessage');
-const email = document.getElementById('email');
-
-var imgNext = document.getElementById('imgNext');
-var imgPrev = document.getElementById('imgPrev');
-
 // Button elements
 const btnShare = document.getElementById('btnShare');
+const btnSignUp = document.getElementById('btnSignUp');
 
 async function main() {
   // 2. liff.ready
@@ -37,7 +27,7 @@ async function main() {
   // 10. Show share button
 
   // 1. Initialize LIFF app)
-  await liff.init({ liffId: '1657145167-Moo7gjpB' });
+  await liff.init({ liffId: '1657099145-Vrp9lE3O' });
 }
 main();
 
@@ -57,185 +47,339 @@ async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
       type: 'flex',
-      altText: 'test!!',
+      altText: 'พิเศษ!! กิจกรรมเครดิตฟรี',
       contents: {
-        /* เริ่มต้น code */ type: 'carousel',
+        type: 'carousel',
         contents: [
           {
             type: 'bubble',
             hero: {
               type: 'image',
-              url: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png',
+              url: 'https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/flex/proXD8-1.png',
+              margin: 'none',
               size: 'full',
-              aspectRatio: '20:13',
+              aspectRatio: '6:3.5',
               aspectMode: 'cover',
+              backgroundColor: '#212121FF',
             },
             body: {
               type: 'box',
               layout: 'vertical',
               spacing: 'sm',
+              backgroundColor: '#212121FF',
+              borderColor: '#212121FF',
               contents: [
                 {
                   type: 'text',
-                  text: 'Arm Chair, White',
+                  text: 'สมัครสมาชิกใหม่',
                   weight: 'bold',
-                  size: 'xl',
+                  size: 'xxl',
+                  color: '#E1E1E1FF',
                   wrap: true,
                   contents: [],
                 },
                 {
                   type: 'box',
                   layout: 'baseline',
+                  backgroundColor: '#212121FF',
+                  borderColor: '#212121FF',
                   contents: [
                     {
                       type: 'text',
-                      text: '$49',
+                      text: 'ฝากครั้งแรก',
                       weight: 'bold',
                       size: 'xl',
+                      color: '#E1E1E1FF',
                       flex: 0,
+                      gravity: 'center',
                       wrap: true,
-                      contents: [],
-                    },
-                    {
-                      type: 'text',
-                      text: '.99',
-                      weight: 'bold',
-                      size: 'sm',
-                      flex: 0,
-                      wrap: true,
+                      style: 'normal',
                       contents: [],
                     },
                   ],
+                },
+                {
+                  type: 'text',
+                  text: '* โบนัสสูงสุด 9,999 บาท',
+                  weight: 'bold',
+                  size: 'sm',
+                  color: '#FF0600FF',
+                  contents: [],
                 },
               ],
             },
             footer: {
               type: 'box',
-              layout: 'vertical',
-              spacing: 'sm',
+              layout: 'horizontal',
+              position: 'relative',
+              backgroundColor: '#212121FF',
+              borderColor: '#212121FF',
               contents: [
                 {
-                  type: 'button',
-                  action: {
-                    type: 'uri',
-                    label: 'Add to Cart',
-                    uri: 'https://linecorp.com',
-                  },
-                  style: 'primary',
+                  type: 'box',
+                  layout: 'horizontal',
+                  borderWidth: '1px',
+                  backgroundColor: '#FFFFFFFF',
+                  borderColor: '#FFFFFFFF',
+                  cornerRadius: '10px',
+                  contents: [
+                    {
+                      type: 'button',
+                      action: {
+                        type: 'uri',
+                        label: 'สมัครสมาชิก',
+                        uri: 'https://m2.xd8bet.com/dashboard/login?id',
+                      },
+                      color: '#4C00E7FF',
+                      height: 'sm',
+                      style: 'primary',
+                    },
+                  ],
+                  alignItems: 'center',
+                  justifyContent: 'center',
                 },
                 {
-                  type: 'button',
-                  action: {
-                    type: 'uri',
-                    label: 'Add to wishlist',
-                    uri: 'https://linecorp.com',
-                  },
+                  type: 'box',
+                  layout: 'horizontal',
+                  borderWidth: '1px',
+                  backgroundColor: '#FFFFFFFF',
+                  borderColor: '#FFFFFFFF',
+                  cornerRadius: '10px',
+                  contents: [
+                    {
+                      type: 'button',
+                      action: {
+                        type: 'uri',
+                        label: 'ติดต่อแอดมิน',
+                        uri: 'https://liff.line.me/1656413202-XmQOge58',
+                      },
+                      color: '#02A200FF',
+                      height: 'sm',
+                      style: 'primary',
+                    },
+                  ],
                 },
               ],
+              spacing: 'sm',
             },
           },
           {
             type: 'bubble',
             hero: {
               type: 'image',
-              url: 'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png',
+              url: 'https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/flex/proXD8-2.png',
+              margin: 'none',
               size: 'full',
-              aspectRatio: '20:13',
+              aspectRatio: '6:3.5',
               aspectMode: 'cover',
+              backgroundColor: '#212121FF',
             },
             body: {
               type: 'box',
               layout: 'vertical',
               spacing: 'sm',
+              backgroundColor: '#212121FF',
+              borderColor: '#212121FF',
               contents: [
                 {
                   type: 'text',
-                  text: 'Metal Desk Lamp',
+                  text: 'ฝากแรกของวัน',
                   weight: 'bold',
-                  size: 'xl',
+                  size: 'xxl',
+                  color: '#E1E1E1FF',
                   wrap: true,
                   contents: [],
                 },
                 {
                   type: 'box',
                   layout: 'baseline',
-                  flex: 1,
+                  backgroundColor: '#212121FF',
+                  borderColor: '#212121FF',
                   contents: [
                     {
                       type: 'text',
-                      text: '$11',
+                      text: 'รับเพิ่ม 20%',
                       weight: 'bold',
                       size: 'xl',
+                      color: '#E1E1E1FF',
                       flex: 0,
+                      gravity: 'center',
                       wrap: true,
-                      contents: [],
-                    },
-                    {
-                      type: 'text',
-                      text: '.99',
-                      weight: 'bold',
-                      size: 'sm',
-                      flex: 0,
-                      wrap: true,
+                      style: 'normal',
                       contents: [],
                     },
                   ],
                 },
                 {
                   type: 'text',
-                  text: 'Temporarily out of stock',
-                  size: 'xxs',
-                  color: '#FF5551',
-                  flex: 0,
-                  margin: 'md',
-                  wrap: true,
+                  text: '* โบนัสสูงสุด 2,000 บาท',
+                  weight: 'bold',
+                  size: 'sm',
+                  color: '#FF0600FF',
                   contents: [],
                 },
               ],
             },
             footer: {
               type: 'box',
-              layout: 'vertical',
-              spacing: 'sm',
+              layout: 'horizontal',
+              position: 'relative',
+              backgroundColor: '#212121FF',
+              borderColor: '#212121FF',
               contents: [
                 {
-                  type: 'button',
-                  action: {
-                    type: 'uri',
-                    label: 'Add to Cart',
-                    uri: 'https://linecorp.com',
-                  },
-                  flex: 2,
-                  color: '#AAAAAA',
-                  style: 'primary',
+                  type: 'box',
+                  layout: 'horizontal',
+                  borderWidth: '1px',
+                  backgroundColor: '#FFFFFFFF',
+                  borderColor: '#FFFFFFFF',
+                  cornerRadius: '10px',
+                  contents: [
+                    {
+                      type: 'button',
+                      action: {
+                        type: 'uri',
+                        label: 'สมัครสมาชิก',
+                        uri: 'https://m2.xd8bet.com/dashboard/login?id',
+                      },
+                      color: '#4C00E7FF',
+                      height: 'sm',
+                      style: 'primary',
+                      gravity: 'center',
+                    },
+                  ],
                 },
                 {
-                  type: 'button',
-                  action: {
-                    type: 'uri',
-                    label: 'Add to wish list',
-                    uri: 'https://linecorp.com',
-                  },
+                  type: 'box',
+                  layout: 'horizontal',
+                  borderWidth: '1px',
+                  backgroundColor: '#FFFFFFFF',
+                  borderColor: '#FFFFFFFF',
+                  cornerRadius: '10px',
+                  contents: [
+                    {
+                      type: 'button',
+                      action: {
+                        type: 'uri',
+                        label: 'ติดต่อแอดมิน',
+                        uri: 'https://rchat.readyplanet.com/1000046519',
+                      },
+                      color: '#02A200FF',
+                      height: 'sm',
+                      style: 'primary',
+                    },
+                  ],
                 },
               ],
+              spacing: 'sm',
             },
           },
           {
             type: 'bubble',
+            hero: {
+              type: 'image',
+              url: 'https://stackblitz.com/files/liff-c8ysgu/github/api-XDBet/liff-c8ysgu/master/image/flex/proXD8-3.png',
+              margin: 'none',
+              size: 'full',
+              aspectRatio: '6:3.5',
+              aspectMode: 'cover',
+              backgroundColor: '#212121FF',
+            },
             body: {
               type: 'box',
               layout: 'vertical',
               spacing: 'sm',
+              backgroundColor: '#212121FF',
+              borderColor: '#212121FF',
               contents: [
                 {
-                  type: 'button',
-                  action: {
-                    type: 'uri',
-                    label: 'See more',
-                    uri: 'https://linecorp.com',
-                  },
-                  flex: 1,
-                  gravity: 'center',
+                  type: 'text',
+                  text: 'เพียงแนะนำเพื่อน',
+                  weight: 'bold',
+                  size: 'xxl',
+                  color: '#E1E1E1FF',
+                  wrap: true,
+                  contents: [],
+                },
+                {
+                  type: 'box',
+                  layout: 'baseline',
+                  backgroundColor: '#212121FF',
+                  borderColor: '#212121FF',
+                  contents: [
+                    {
+                      type: 'text',
+                      text: 'รับรายได้ 5%',
+                      weight: 'bold',
+                      size: 'xl',
+                      color: '#E1E1E1FF',
+                      flex: 0,
+                      gravity: 'center',
+                      wrap: true,
+                      style: 'normal',
+                      contents: [],
+                    },
+                  ],
+                },
+                {
+                  type: 'text',
+                  text: '* ชวนได้ไม่จำกัด',
+                  weight: 'bold',
+                  size: 'sm',
+                  color: '#FF0600FF',
+                  contents: [],
+                },
+              ],
+            },
+            footer: {
+              type: 'box',
+              layout: 'horizontal',
+              spacing: 'sm',
+              position: 'relative',
+              backgroundColor: '#212121FF',
+              borderColor: '#212121FF',
+              contents: [
+                {
+                  type: 'box',
+                  layout: 'horizontal',
+                  borderWidth: '1px',
+                  backgroundColor: '#FFFFFFFF',
+                  borderColor: '#FFFFFFFF',
+                  cornerRadius: '10px',
+                  contents: [
+                    {
+                      type: 'button',
+                      action: {
+                        type: 'uri',
+                        label: 'สมัครสมาชิก',
+                        uri: 'https://m2.xd8bet.com/dashboard/login?id',
+                      },
+                      color: '#4C00E7FF',
+                      height: 'sm',
+                      style: 'primary',
+                    },
+                  ],
+                },
+                {
+                  type: 'box',
+                  layout: 'horizontal',
+                  borderWidth: '1px',
+                  backgroundColor: '#FFFFFFFF',
+                  borderColor: '#FFFFFFFF',
+                  cornerRadius: '10px',
+                  contents: [
+                    {
+                      type: 'button',
+                      action: {
+                        type: 'uri',
+                        label: 'ติดต่อแอดมิน',
+                        uri: 'https://rchat.readyplanet.com/1000046519',
+                      },
+                      color: '#02A200FF',
+                      height: 'sm',
+                      style: 'primary',
+                    },
+                  ],
                 },
               ],
             },
@@ -251,45 +395,53 @@ async function shareMsg() {
   }
   liff.closeWindow();
 }
-// 11. Add close window
 
+// var mybutton = document.getElementById('myTopBtn');
 
-var slideIndex = 1;
-showSlides(slideIndex);
+/* When the user scrolls down 20px from the top of the document, show the button */
+// window.onscroll = function () {
+//   scrollFunction();
+// };
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     mybutton.style.display = 'block';
+//   } else {
+//     mybutton.style.display = 'none';
+//   }
+// }
+// myTopBtn.onclick = function () {
+//   topFunction();
+// };
+/* When the user clicks on the button, scroll to the top of the document */
+// function topFunction() {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// }
 
-async function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName('mySlides');
-  var dots = document.getElementsByClassName('dot');
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
+// 9. Add event listener to share button
+btnShare.onclick = () => {
+  shareMsg();
+};
+
+/* Place your JavaScript in this file */
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName('mySlides');
+  let dots = document.getElementsByClassName('dot');
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = 'none';
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(' active', '');
   }
   slides[slideIndex - 1].style.display = 'block';
   dots[slideIndex - 1].className += ' active';
+  setTimeout(showSlides, 4000); // [ กำหนดเวลาเปลี่ยนรูปสไลด์ *หน่วยเป็น ms. เช่น 1000ms. = 1 sec.* ]
 }
-// 9. Add event listener to share button
-btnShare.onclick = () => {
-  shareMsg();
-};
-
-async function funcNext(n) {
-  showSlides((slideIndex += 1));
-}
-async function funcPrev(n) {
-  showSlides((slideIndex += -1));
-}
-imgPrev.onclick = () => {
-  funcPrev(-1);
-};
-imgNext.onclick = () => {
-  funcNext(1);
-};
