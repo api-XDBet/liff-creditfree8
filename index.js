@@ -423,19 +423,6 @@ btnShare.onclick = () => {
   shareMsg();
 };
 
-async function register() {
-  const result = await liff.getUrl('https://www.google.com/');
-  if (result) {
-    alert('goodjob bro!!');
-  } else {
-    alert('????');
-  }
-}
-
-btnSignUp.onclick = () => {
-  register();
-};
-
 /* Place your JavaScript in this file */
 let slideIndex = 0;
 showSlides();
