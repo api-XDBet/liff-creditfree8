@@ -1,4 +1,4 @@
-# liff-c8ysgu
+# liff-creditfree8
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/liff-c8ysgu)
 
