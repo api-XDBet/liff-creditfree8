@@ -1,6 +1,6 @@
 # liff-creditfree8
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/liff-c8ysgu)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/liff-creditfree8)
 
 <!-- ฝาก footer element -->
 
