@@ -26,7 +26,7 @@ async function main() {
   // 10. Show share button
 
   // 1. Initialize LIFF app)
-  await liff.init({ liffId: '1657145167-5WvX41bP' });
+  await liff.init({ liffId: '1656413202-4DDN1my7'});
 }
 main();
 
@@ -388,9 +388,9 @@ async function shareMsg() {
     },
   ]);
   if (result) {
-    alert('Msg was shared!');
+    alert('ทำรายการสำเร็จ');
   } else {
-    alert('ShareTargetPicker was cancelled by user');
+    alert('Close');
   }
   liff.closeWindow();
 }
